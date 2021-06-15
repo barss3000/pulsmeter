@@ -1,0 +1,33 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/fonts";
+@import "libs/tiny-slider";
+@import "libs/animate";
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/animation";
+
+* {
+	font-family: "MuseoSansCyrl", sans-serif;
+}
+
+.container {
+	position: relative;
+	max-width: 950px;
+	margin: 0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header";
+@import "blocks/buttons";
+@import "blocks/advantage";
+@import "blocks/titles";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/account";
+@import "blocks/footer";
+@import "blocks/modals";
+@import "blocks/pageup";
+@import "blocks/_media";
+
